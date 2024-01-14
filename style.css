@@ -1,0 +1,226 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.active
+{
+    float: left;
+    text-align: left;
+}
+.nav{
+    position:fixed;
+    top: 0%;
+    width: 100%;
+overflow: hidden;
+z-index:  1 ;  /* it makes the content appear on top */
+border-bottom: 1px;
+border-bottom-style: solid;
+border-color: black;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white; 
+  }
+  
+li
+{
+    float: right;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .word
+  {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+  }
+
+.img1
+{  
+    background-image: url(https://www.w3schools.com/w3images/hamburger.jpg) ;
+    border: 5px;
+    padding: 365px ;
+    color: rgb(85, 84, 84);
+    margin: 40px auto;
+    margin-left: 10px;
+    width: 100%;
+}
+.chance
+{
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;    
+    padding: 5px; 
+    padding-top: 100px;
+    padding-left: 40px;
+    letter-spacing: 6px;
+    font-size: 250%;
+    font-family: Playfair Display;    
+}
+.sec
+{
+   width: 30%;
+   float: left;  
+   height: 850px;
+   text-align: center;
+   border: 20px;
+   text-align: center;
+   position: relative;
+   padding: 20px 40px;
+   margin: 0px 0px 0px 100px;
+}
+.sec_2
+{
+    width: 35%;
+   float: right; 
+   border: 20px;
+   position: relative;
+   text-align: left;
+   padding: 40px 40px;
+   margin: 0px 100px 0px 0px;
+   background-color: white;
+   height: 850px;
+   font-size: larger;
+   h1
+   {
+    font-family: Playfair Display;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 25px;
+   }  
+}
+.p1
+{
+    text-align: center;
+    letter-spacing: 6px;
+}
+.h1
+{
+    letter-spacing: 3px;   
+}
+.p2
+{
+    float: inline-end;   
+}
+#sp2
+{
+    color: grey;
+}
+.sec_3
+{
+    border: 20px;
+    text-align: center;
+    padding: 40px 40px;
+    margin: 0px 0px 0px 150px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Playfair Display;
+        font-weight: normal;
+    }
+    h2{
+        text-align: left;
+        font-weight: normal;
+        font-family: Playfair Display;
+        letter-spacing: 3px;
+    }
+    p
+    {
+        color: grey;
+        text-align: left;
+    }
+text-align: center;
+    width: 30%;
+    position: relative;
+   float: left; 
+   background-color: white;
+   height: 1000px;
+   padding-block-end: 10px;
+}
+.sec_4
+{
+    width: 30%;
+   float: right; 
+   text-align: center;
+   height: 1000px;
+   border: 20px;
+   position: relative;
+   padding: 40px 40px;
+   margin: 0px 150px 0px 0px;
+}
+
+#no1,#no2
+{
+    text-align: center;
+    border-style: none;
+}
+.form
+{
+    border: 50px;
+    width: 75%;
+    padding: 60px 60px;
+    margin-top: 10%;
+    margin-left: 10%;
+    input 
+    {
+        padding: 20px;
+        width: 100%;
+        border-style: none;
+        border-bottom-style: double;
+    }
+    h6
+    {
+        margin-bottom: 40px;
+        font-size: 300%;
+        font-weight: normal;
+        font-family: Playfair Display;
+        letter-spacing: 4px;
+    }
+    button
+    {
+        background-color: rgb(197, 189, 189);
+        border-style: none;
+        border-color: rgb(197, 189, 189);
+        padding: 10px;
+        text-align: center;
+    }
+    b
+    {
+        color: grey;
+    }
+}
+.footer
+{   
+    background-color: rgb(249, 248, 248);
+    text-align: center;
+    border: 100px;
+    width: 100%;
+     color: black;
+     a{
+        color: black;
+     }
+    padding: 20px 20px;
+}
+.line1
+{
+    width: 100%;
+    top: 240%;
+    position: absolute;
+    color: grey;
+}
+.line2
+{
+    width: 100%;
+    top: 380%;
+    position: absolute;
+    color: grey;
+}
